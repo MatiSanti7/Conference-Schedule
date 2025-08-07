@@ -19,10 +19,10 @@ const Nav = () => {
             <a href="/schedule">Schedule</a>
           </li>
           <li className="text-xl transition-all duration-300 hover:text-red-600">
-            <a href="/schedule">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
           <li className="flex items-center h-full text-xl font-bold text-black transition-all duration-300 bg-white rounded-full cursor-pointer hover:bg-red-600 hover:text-white hover:shadow-slate-400/50 hover:shadow-md">
-            <a href="/schedule" className="px-10">
+            <a href="/register" className="px-10">
               Register
             </a>
           </li>

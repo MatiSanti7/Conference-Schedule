@@ -8,7 +8,7 @@ export default function HeaderAbout() {
         alt=""
         className="fixed object-cover object-left w-1/3 h-full"
       />
-      <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-black to-transparent"></div>
+      <div className="fixed top-0 left-0 w-full h-1/3 bg-gradient-to-b from-black to-transparent"></div>
       <div className="absolute flex flex-col items-start w-6/12 gap-10 ml-16 text-white top-44 left-1/3">
         <h1 className="text-5xl font-bold">About the Conference</h1>
         <section>
