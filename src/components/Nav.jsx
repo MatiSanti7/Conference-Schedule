@@ -13,7 +13,7 @@ const Nav = () => {
         </a>
         <ul className="flex gap-16 text-white">
           <li className="text-xl transition-all duration-300 hover:text-red-600">
-            <a href="/">Home</a>
+            <a href="/home">Home</a>
           </li>
           <li className="text-xl transition-all duration-300 hover:text-red-600">
             <a href="/about">About</a>

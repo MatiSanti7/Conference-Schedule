@@ -1,10 +1,25 @@
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const irASpeakers = () => {
+    navigate("/home", { replace: false });
+
+    // Esperar que el DOM se actualice
+    setTimeout(() => {
+      const el = document.getElementById("speakers");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100); // delay pequeño para permitir que se monte el contenido
+  };
   return (
     <footer className="relative z-50 w-full mx-auto text-white border-t-2 border-white bg-black/70 backdrop-blur-sm">
       <div className="flex justify-between w-5/6 mx-auto py-14">
         <ul className="grid grid-cols-3 text-xl gap-x-32 gap-y-5">
           <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/">Home</a>
+            <a href="/home">Home</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
             <a href="/about">About</a>
@@ -13,25 +28,24 @@ const Footer = () => {
             <a href="/schedule">Schedule</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
-            <a href="">Speakers</a>
+            <a onClick={irASpeakers} className="cursor-pointer">
+              Speakers
+            </a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
-            <a href="">Register</a>
+            <a href="/register">Register</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
-            <a href="">Venue</a>
+            <a href="">Code of Coduct</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
-            <a href="">Accommodation</a>
+            <a href="">Food Options</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
-            <a href="">Travel</a>
+            <a href="">Hotel Options</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
             <a href="">Sponsors</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="">Code of Conduct</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
             <a href="">FAQ</a>
