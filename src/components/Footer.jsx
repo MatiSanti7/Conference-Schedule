@@ -14,16 +14,6 @@ const Footer = () => {
       }
     }, 100); // delay pequeño para permitir que se monte el contenido
   };
-  const irACodeCoduct = () => {
-    navigate("/home", { replace: false });
-    // Esperar que el DOM se actualice
-    setTimeout(() => {
-      const el = document.getElementById("codeOfConduct");
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100); // delay pequeño para permitir que se monte el contenido
-  };
   const irAFoodOptions = () => {
     navigate("/accommodation-meals", { replace: false });
     // Esperar que el DOM se actualice
@@ -87,9 +77,7 @@ const Footer = () => {
             <a href="/register">Register</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
-            <a onClick={irACodeCoduct} className="cursor-pointer">
-              Code of Coduct
-            </a>
+            <a href="/code-of-conduct">Code of Coduct</a>
           </li>
           <li className="transition-all duration-300 hover:text-red-500">
             <a onClick={irAFoodOptions} className="cursor-pointer">

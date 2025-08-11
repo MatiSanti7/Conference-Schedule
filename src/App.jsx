@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Schedule from "./pages/Schedule";
 import Contact from "./pages/Contact";
 import Register from "./pages/Register";
+import CodeConduct from "./pages/CodeConduct";
 import AM from "./pages/AccommodationMeals";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/code-of-conduct" element={<CodeConduct />} />
         <Route path="/accommodation-meals" element={<AM />} />
       </Routes>
     </Router>

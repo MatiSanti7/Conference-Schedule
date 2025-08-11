@@ -24,7 +24,7 @@ export default function MainSchedule() {
     end: endDate,
   })
     ? dateCurrent
-    : null;
+    : startDate;
 
   const [selectedDate, setSelectedDate] = useState(defaultSelected);
 
