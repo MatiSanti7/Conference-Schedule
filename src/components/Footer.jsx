@@ -18,7 +18,7 @@ const Footer = () => {
     navigate("/accommodation-meals", { replace: false });
     // Esperar que el DOM se actualice
     setTimeout(() => {
-      const el = document.getElementById("foodOptions");
+      const el = document.getElementById("foods");
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
       }
@@ -28,7 +28,7 @@ const Footer = () => {
     navigate("/accommodation-meals", { replace: false });
     // Esperar que el DOM se actualice
     setTimeout(() => {
-      const el = document.getElementById("hotelOptions");
+      const el = document.getElementById("hotels");
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
       }
