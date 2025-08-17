@@ -1,6 +1,7 @@
 import Nav from "../components/Nav";
 import Header from "../components/Header";
-import EventHighlight from "../components/EventHighlight";
+import Speakers from "../components/MainSpeakers";
+import Sponsors from "../components/Sponsors";
 import Footer from "../components/Footer";
 
 const HomePage = () => {
@@ -8,7 +9,8 @@ const HomePage = () => {
     <div className="relative transition-all duration-300 bg-black">
       <Nav />
       <Header />
-      <EventHighlight />
+      <Speakers />
+      <Sponsors />
       <Footer />
     </div>
   );

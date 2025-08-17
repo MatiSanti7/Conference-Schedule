@@ -1,10 +1,10 @@
 import Speaker from "./Speaker";
 import speakerData from "../assets/data/speaker.json";
 
-const EventHighlight = () => {
+const MainSpeakers = () => {
   return (
     <section
-      className="relative z-10 flex flex-col items-center justify-center w-full py-36"
+      className="relative z-10 flex flex-col items-center justify-center w-full pt-36"
       id="speakers"
     >
       <h2 className="text-6xl font-bold text-white mb-14">Speaker{"'"}s</h2>
@@ -17,4 +17,4 @@ const EventHighlight = () => {
   );
 };
 
-export default EventHighlight;
+export default MainSpeakers;
