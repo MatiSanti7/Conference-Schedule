@@ -1,0 +1,48 @@
+{
+  "result": {
+    "list": [
+      {
+        "key": "sponsor1",
+        "name": "TechWave Solutions",
+        "image": "https://1000marcas.net/wp-content/uploads/2021/07/logo-Zoom-500x281.png",
+        "url": "https://www.techwave.com/"
+      },
+      {
+        "key": "sponsor2",
+        "name": "GreenLeaf Organics",
+        "image": "https://1000marcas.net/wp-content/uploads/2019/11/Instagram-Logo-500x281.png",
+        "url": "https://www.greenleaforganics.com/"
+      },
+      {
+        "key": "sponsor3",
+        "name": "Skyline Finance",
+        "image": "https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1-500x281.png",
+        "url": "https://www.skylinefinance.com/"
+      },
+      {
+        "key": "sponsor4",
+        "name": "PureWater Systems",
+        "image": "https://1000marcas.net/wp-content/uploads/2019/12/Spotify-Logo-500x281.png",
+        "url": "https://www.purewatersystems.com/"
+      },
+      {
+        "key": "sponsor5",
+        "name": "NextGen Software",
+        "image": "https://1000marcas.net/wp-content/uploads/2019/12/TikTok-logo-357x500.png",
+        "url": "https://www.nextgensoftware.com/"
+      },
+      {
+        "key": "sponsor6",
+        "name": "Urban Eats Catering",
+        "image": "https://1000marcas.net/wp-content/uploads/2019/11/Twitter-Logo-500x281.png",
+        "url": "https://www.urbaneats.com/"
+      },
+      {
+        "key": "sponsor7",
+        "name": "Global Horizons Travel",
+        "image": "https://1000marcas.net/wp-content/uploads/2020/02/logo-Google-500x281.png",
+        "url": "https://www.globalhorizons.com/"
+      }
+    ]
+  }
+}

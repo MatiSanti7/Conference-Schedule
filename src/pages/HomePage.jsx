@@ -1,7 +1,7 @@
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Speakers from "../components/MainSpeakers";
-import Sponsors from "../components/Sponsors";
+import Sponsors from "../components/SectionSponsors";
 import Footer from "../components/Footer";
 
 const HomePage = () => {
