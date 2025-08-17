@@ -3,45 +3,93 @@
     "list": [
       {
         "key": "sponsor1",
-        "name": "TechWave Solutions",
+        "name": "Zoom",
         "image": "https://1000marcas.net/wp-content/uploads/2021/07/logo-Zoom-500x281.png",
-        "url": "https://www.techwave.com/"
+        "url": "https://zoom.us/"
       },
       {
         "key": "sponsor2",
-        "name": "GreenLeaf Organics",
+        "name": "Instagram",
         "image": "https://1000marcas.net/wp-content/uploads/2019/11/Instagram-Logo-500x281.png",
-        "url": "https://www.greenleaforganics.com/"
+        "url": "https://www.instagram.com/"
       },
       {
         "key": "sponsor3",
-        "name": "Skyline Finance",
+        "name": "Google Mail",
         "image": "https://1000marcas.net/wp-content/uploads/2019/11/logo-Gmail-1-500x281.png",
-        "url": "https://www.skylinefinance.com/"
+        "url": "https://mail.google.com/"
       },
       {
         "key": "sponsor4",
-        "name": "PureWater Systems",
+        "name": "Spotify",
         "image": "https://1000marcas.net/wp-content/uploads/2019/12/Spotify-Logo-500x281.png",
-        "url": "https://www.purewatersystems.com/"
+        "url": "https://www.spotify.com/"
       },
       {
         "key": "sponsor5",
-        "name": "NextGen Software",
-        "image": "https://1000marcas.net/wp-content/uploads/2019/12/TikTok-logo-357x500.png",
-        "url": "https://www.nextgensoftware.com/"
+        "name": "TikTok",
+        "image": "https://cdn.pixabay.com/photo/2021/01/30/06/43/tiktok-5962994_1280.png",
+        "url": "https://www.tiktok.com/"
       },
       {
         "key": "sponsor6",
-        "name": "Urban Eats Catering",
-        "image": "https://1000marcas.net/wp-content/uploads/2019/11/Twitter-Logo-500x281.png",
-        "url": "https://www.urbaneats.com/"
+        "name": "Twitter (X)",
+        "image": "https://images.icon-icons.com/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png",
+        "url": "https://x.com/"
       },
       {
         "key": "sponsor7",
-        "name": "Global Horizons Travel",
+        "name": "Google",
         "image": "https://1000marcas.net/wp-content/uploads/2020/02/logo-Google-500x281.png",
-        "url": "https://www.globalhorizons.com/"
+        "url": "https://www.google.com/"
+      },
+      {
+        "key": "sponsor10",
+        "name": "YouTube",
+        "image": "https://images.icon-icons.com/195/PNG/256/YouTube_23392.png",
+        "url": "https://www.youtube.com/"
+      },
+      {
+        "key": "sponsor8",
+        "name": "Microsoft",
+        "image": "https://1000marcas.net/wp-content/uploads/2019/12/Microsoft-Logo-500x281.png",
+        "url": "https://www.microsoft.com/"
+      },
+      {
+        "key": "sponsor9",
+        "name": "LinkedIn",
+        "image": "https://1000marcas.net/wp-content/uploads/2020/01/Logo-Linkedin-500x313.png",
+        "url": "https://www.linkedin.com/"
+      },
+      {
+        "key": "sponsor11",
+        "name": "Netflix",
+        "image": "https://1000marcas.net/wp-content/uploads/2020/01/Logo-Netflix-500x281.png",
+        "url": "https://www.netflix.com/"
+      },
+      {
+        "key": "sponsor12",
+        "name": "Amazon",
+        "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/amazon-white-icon.png",
+        "url": "https://www.amazon.com/"
+      },
+      {
+        "key": "sponsor14",
+        "name": "Adobe",
+        "image": "https://cdn-icons-png.flaticon.com/512/732/732171.png",
+        "url": "https://www.adobe.com/"
+      },
+      {
+        "key": "sponsor15",
+        "name": "PayPal",
+        "image": "https://cdn-icons-png.flaticon.com/512/174/174861.png",
+        "url": "https://www.paypal.com/"
+      },
+      {
+        "key": "sponsor13",
+        "name": "Apple",
+        "image": "https://img.icons8.com/m_outlined/512/FFFFFF/mac-os--v2.png",
+        "url": "https://www.apple.com/"
       }
     ]
   }
