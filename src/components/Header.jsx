@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import bgHeader from "../assets/images/image-bg.webp";
 import dataEvent from "../assets/data/event.json";
 import { format, eachDayOfInterval, parseISO } from "date-fns";
 
 const Header = () => {
+  const navigate = useNavigate();
   const startDate = parseISO(dataEvent.dateStart);
   const endDate = parseISO(dataEvent.dateEnd);
   const dateCurrent = new Date();
@@ -52,7 +54,10 @@ const Header = () => {
         <p className="mb-8 text-2xl leading-10 text-balance">
           {dataEvent.brief}
         </p>
-        <button className="py-3 text-2xl font-bold text-black transition-all duration-300 bg-white rounded-full px-14 hover:bg-red-500 hover:text-white hover:shadow-md hover:shadow-slate-400/50">
+        <button
+          className="py-3 text-2xl font-bold text-black transition-all duration-300 bg-white rounded-full px-14 hover:bg-red-500 hover:text-white hover:shadow-md hover:shadow-slate-400/50"
+          onClick={() => navigate("/register")}
+        >
           Register Now
         </button>
       </div>

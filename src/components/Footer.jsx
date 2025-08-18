@@ -102,6 +102,9 @@ const Footer = () => {
           <li className="transition-all duration-300 hover:text-red-500">
             <a href="/contact">Contact</a>
           </li>
+          <li className="transition-all duration-300 hover:text-red-500">
+            <a href="/cms">CMS</a>
+          </li>
         </ul>
         <ul className="grid grid-cols-4 gap-5 text-4xl">
           <li>
