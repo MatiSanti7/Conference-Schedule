@@ -86,9 +86,14 @@ export default function MainRegister() {
         >
           Register Now
         </button>
-        <span>
+        <span className="text-white">
           Need assistance?{" "}
-          <a href="mailto:">Contact us at info@conference.org</a>
+          <a
+            href="mailto:"
+            className="transition-all duration-300 hover:text-red-500"
+          >
+            Contact us at info@conference.org
+          </a>
         </span>
       </form>
     </main>
