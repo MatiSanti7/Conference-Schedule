@@ -58,52 +58,117 @@ const Footer = () => {
   return (
     <footer className="relative z-50 w-full mx-auto text-white border-t-2 border-white bg-black/70 backdrop-blur-sm">
       <div className="flex justify-between w-5/6 mx-auto py-14">
-        <ul className="grid grid-cols-3 text-xl gap-x-32 gap-y-5">
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/home">Home</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/about">About</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/schedule">Schedule</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a onClick={irASpeakers} className="cursor-pointer">
-              Speakers
+        <ul className="grid grid-cols-4 text-xl gap-y-4 gap-x-10">
+          <div>
+            <li>
+              <a
+                href="/home"
+                className="font-semibold transition-all duration-300 hover:text-red-500"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={irASpeakers}
+                className="transition-all duration-300 cursor-pointer hover:text-red-500 font-extralight"
+              >
+                Speakers
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={irASponsors}
+                className="transition-all duration-300 cursor-pointer hover:text-red-500 font-extralight"
+              >
+                Sponsors
+              </a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a
+                href="/about"
+                className="font-semibold transition-all duration-300 hover:text-red-500"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={irAFAQ}
+                className="transition-all duration-300 cursor-pointer hover:text-red-500 font-extralight"
+              >
+                FAQ
+              </a>
+            </li>
+          </div>
+          <li>
+            <a
+              href="/schedule"
+              className="font-semibold transition-all duration-300 hover:text-red-500"
+            >
+              Schedule
             </a>
           </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/register">Register</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/code-of-conduct">Code of Coduct</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a onClick={irAFoodOptions} className="cursor-pointer">
-              Food Options
+          <li>
+            <a
+              href="/contact"
+              className="font-semibold transition-all duration-300 hover:text-red-500"
+            >
+              Contact
             </a>
           </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a onClick={irAHotelOptions} className="cursor-pointer">
-              Hotel Options
+          <div>
+            <li>
+              <a
+                href="/accommodation-meals"
+                className="font-semibold transition-all duration-300 hover:text-red-500"
+              >
+                Accommodation Meals
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={irAFoodOptions}
+                className="transition-all duration-300 cursor-pointer hover:text-red-500 font-extralight"
+              >
+                Food Options
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={irAHotelOptions}
+                className="transition-all duration-300 cursor-pointer hover:text-red-500 font-extralight"
+              >
+                Hotel Options
+              </a>
+            </li>
+          </div>
+
+          <li>
+            <a
+              href="/code-of-conduct"
+              className="font-semibold transition-all duration-300 hover:text-red-500"
+            >
+              Code of Coduct
             </a>
           </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a onClick={irASponsors} className="cursor-pointer">
-              Sponsors
+          <li>
+            <a
+              href="/register"
+              className="font-semibold transition-all duration-300 hover:text-red-500"
+            >
+              Register
             </a>
           </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a onClick={irAFAQ} className="cursor-pointer">
-              FAQ
+          <li>
+            <a
+              href="/cms"
+              className="font-semibold transition-all duration-300 hover:text-red-500"
+            >
+              CMS
             </a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/contact">Contact</a>
-          </li>
-          <li className="transition-all duration-300 hover:text-red-500">
-            <a href="/cms">CMS</a>
           </li>
         </ul>
         <ul className="grid grid-cols-4 gap-5 text-4xl">
