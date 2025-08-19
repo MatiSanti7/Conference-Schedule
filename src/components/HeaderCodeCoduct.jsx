@@ -8,7 +8,6 @@ export default function HeaderCodeCoduct() {
         alt="image-background"
         className="object-cover w-full h-full"
       />
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black to-transparent"></div>
       <section className="absolute text-center text-white -translate-x-1/2 top-56 left-1/2">
         <h1 className="pb-3 text-5xl font-bold">Code of Conduct</h1>
         <span className="text-lg italic font-medium ">

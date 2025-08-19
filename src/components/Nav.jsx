@@ -8,8 +8,8 @@ AOS.init();
 const Nav = () => {
   const navigate = useNavigate();
   return (
-    <nav className="fixed top-0 w-full h-[12vh] py-3 z-50 backdrop-blur-sm border-b-2">
-      <div className="sticky z-20 flex items-center justify-between w-5/6 mx-auto ">
+    <nav className="fixed top-0 w-full h-[12vh] py-3 z-[100] backdrop-blur-sm border-b-2 bg-black/30">
+      <div className="sticky flex items-center justify-around z-[100] w-5/6 mx-auto">
         <ul className="flex items-center h-12 gap-16 text-white">
           <li className="text-xl transition-all duration-300 hover:text-red-600">
             <a href="/">Home</a>

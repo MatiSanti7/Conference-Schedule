@@ -16,7 +16,6 @@ const Header = () => {
         alt="image-background"
         className="fixed object-cover w-full h-full"
       />
-      <div className="fixed top-0 left-0 w-full h-full bg-gradient-to-b from-black to-transparent"></div>
       <div className="absolute flex flex-col items-start w-9/12 text-white -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
         <h1 className="mb-10 font-bold text-8xl">{dataEvent.name}</h1>
         <div className="flex items-center gap-5 mb-4">
