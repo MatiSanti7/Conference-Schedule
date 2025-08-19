@@ -1,0 +1,85 @@
+{
+  "main": {
+    "title": "About the Conference",
+    "sections": [
+      {
+        "subtitle": "Education for the World We Want",
+        "paragraphs": [
+          "Our annual conference is a powerful gathering of professionals, educators, community leaders, and students dedicated to transforming education and building a more just, conscious, and sustainable future.",
+          "More than 1,000 participants from diverse countries and backgrounds will join — in person or virtually — to share experiences, rethink current educational models, and explore new tools to make a positive impact in their communities.",
+          "With over 200 engaging activities, including keynote talks,interactive workshops, and roundtable discussions, we will explore how education can become a catalyst for change, strengthen social commitment, and inspire transformative leadership across all ages. In a world facing urgent challenges, this event is a unique opportunity to come together, share knowledge, and move forward with purpose."
+        ]
+      },
+      {
+        "subtitle": "Why Attend?",
+        "text1": "At this conference, you will:",
+        "paragraphs": [
+          "Hear from national and international leaders in education, science, spirituality, and community development",
+          "Participate in practical workshops, inspiring panels, and collective reflection spaces Connect with a wide network of change-makers and educators",
+          "Discover tools, research, and resources you can apply in your own context"
+        ],
+        "text2": "Whether you are a teacher, student, community leader, or someone passionate about learning and creating a better world, this event will offer you fresh ideas and renewed energy to take action."
+      },
+      {
+        "subtitle": "Want to learn more?",
+        "paragraphs": [
+          "Subscribe to our newsletter to stay updated on the latest conference news.",
+          "Questions? Contact us at your-email@example.org or follow us on social media for updates.",
+          "Let me know if you want to adjust it for a specific audience or theme (like faith-based education, mental health, youth leadership, etc.)."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "key": 1,
+      "ask": "Where will the conference take place?",
+      "answer": "The conference will be held at [venue name], located at [full address]."
+    },
+    {
+      "key": 2,
+      "ask": "What are the event hours?",
+      "answer": "The event will start at [start time] and end around [closing time]."
+    },
+    {
+      "key": 3,
+      "ask": "Do I need to register in advance?",
+      "answer": "Yes, registration is required through registration link. Admission is free"
+    },
+    {
+      "key": 4,
+      "ask": "Is the event in-person, online, or hybrid?",
+      "answer": "The conference will be in-person. For online participants, a link will be sent to registered attendees."
+    },
+    {
+      "key": 5,
+      "ask": "What does the ticket/registration include?",
+      "answer": "Registration includes access to all talks and activities in the program. [Add coffee breaks, materials, certificates, if applicable.]"
+    },
+    {
+      "key": 6,
+      "ask": "Will translation or subtitles be available?",
+      "answer": "Yes, translation into Spanish or live subtitles will be provided."
+    },
+    {
+      "key": 7,
+      "ask": "Will participants receive a certificate?",
+      "answer": "Yes, registered participants will receive a digital certificate by email after the event."
+    },
+    {
+      "key": 8,
+      "ask": "Is parking available?",
+      "answer": "Yes, the venue has limited parking. We also recommend using public transportation or carpooling."
+    },
+    {
+      "key": 9,
+      "ask": "Can I record or take photos during the event?",
+      "answer": "Photos are allowed, but full recordings are not permitted without prior consent from the organizers."
+    },
+    {
+      "key": 10,
+      "ask": "Who can I contact for further questions?",
+      "answer": "You can reach us at [contact email] or via WhatsApp at [phone number]."
+    }
+  ]
+}
