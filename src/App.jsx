@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Register from "./pages/Register";
 import CodeConduct from "./pages/CodeConduct";
 import AM from "./pages/AccommodationMeals";
+import CMS from "./pages/CMS";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/code-of-conduct" element={<CodeConduct />} />
         <Route path="/accommodation-meals" element={<AM />} />
+        <Route path="/cms" element={<CMS />} />
       </Routes>
     </Router>
   );
