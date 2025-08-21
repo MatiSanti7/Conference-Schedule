@@ -5,14 +5,14 @@ export default function NavCMS() {
 
   return (
     <nav
-      className={`absolute flex h-screen pt-28 px-5 text-2xl text-white transition-all duration-100 bg-gray-700 ${
-        isHovered ? "w-1/4" : "w-28"
+      className={`absolute flex flex-col justify-between h-screen py-20 px-5 text-2xl text-white transition-all duration-100 bg-gray-700 ${
+        isHovered ? "w-auto" : "w-44"
       }`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <ul className="flex flex-col gap-5">
-        <li className="flex items-center cursor-pointer">
+      <ul className="flex flex-col gap-3">
+        <li className="flex items-center p-4 transition-all duration-300 rounded-lg cursor-pointer hover:bg-slate-600">
           <i className="fa fa-home" aria-hidden="true"></i>
           <span
             className={`transition-all duration-300 pl-16 ${
@@ -24,7 +24,7 @@ export default function NavCMS() {
             Home
           </span>
         </li>
-        <li className="flex items-center cursor-pointer">
+        <li className="flex items-center p-4 transition-all duration-300 rounded-lg cursor-pointer hover:bg-slate-600">
           <i className="fa fa-info-circle" aria-hidden="true"></i>
           <span
             className={`transition-all duration-300 pl-16 ${
@@ -36,7 +36,7 @@ export default function NavCMS() {
             About
           </span>
         </li>
-        <li className="flex items-center cursor-pointer">
+        <li className="flex items-center p-4 transition-all duration-300 rounded-lg cursor-pointer hover:bg-slate-600">
           <i className="fa fa-calendar-minus-o" aria-hidden="true"></i>
           <span
             className={`transition-all duration-300 pl-16 ${
@@ -48,10 +48,10 @@ export default function NavCMS() {
             Schedule
           </span>
         </li>
-        <li className="flex items-center cursor-pointer">
+        <li className="w-[400px] flex items-center p-4 transition-all duration-300 rounded-lg cursor-pointer hover:bg-slate-600">
           <i className="fas fa-hotel "></i>
           <span
-            className={`w-[400px] transition-all duration-300 pl-16 ${
+            className={`w-[310px] transition-all duration-300 pl-16 ${
               isHovered
                 ? "opacity-100 visible translate-x-0"
                 : "opacity-0 invisible -translate-x-20"
@@ -60,7 +60,7 @@ export default function NavCMS() {
             Accommodation Meals
           </span>
         </li>
-        <li className="flex items-center cursor-pointer">
+        <li className="w-[400px] flex items-center p-4 transition-all duration-300 rounded-lg cursor-pointer hover:bg-slate-600">
           <i className="fa fa-book" aria-hidden="true"></i>
           <span
             className={`transition-all duration-300 pl-16 ${
@@ -73,6 +73,23 @@ export default function NavCMS() {
           </span>
         </li>
       </ul>
+      <button
+        className="w-[400px] flex items-center p-4 transition-all duration-300 rounded-lg cursor-pointer hover:bg-slate-600"
+        onClick={() => {
+          window.location.href = "/";
+        }}
+      >
+        <i className="fa fa-sign-out" aria-hidden="true"></i>
+        <span
+          className={`transition-all duration-300 pl-16 ${
+            isHovered
+              ? "opacity-100 visible translate-x-0"
+              : "opacity-0 invisible -translate-x-20"
+          }`}
+        >
+          Back to HomePage
+        </span>
+      </button>
     </nav>
   );
 }
