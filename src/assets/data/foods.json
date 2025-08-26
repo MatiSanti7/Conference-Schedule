@@ -1,76 +1,72 @@
-{
-  "result": {
-    "list": [
-      {
-        "key": "food1",
-        "name": "Sourdough Bread Bowl with Clam Chowder",
-        "image": "https://images.unsplash.com/photo-1604908176997-31f3e06f3a02?auto=format&fit=crop&w=800&q=80",
-        "price": 12,
-        "url": "https://www.boudinbakery.com/"
-      },
-      {
-        "key": "food2",
-        "name": "Mission Style Burrito",
-        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80",
-        "price": 10,
-        "url": "https://www.lataqueriasf.com/"
-      },
-      {
-        "key": "food3",
-        "name": "Dungeness Crab",
-        "image": "https://images.unsplash.com/photo-1617196039984-09b7f13e7d40?auto=format&fit=crop&w=800&q=80",
-        "price": 25,
-        "url": "https://www.fishermanswharf.org/"
-      },
-      {
-        "key": "food4",
-        "name": "Ghirardelli Chocolate Sundae",
-        "image": "https://images.unsplash.com/photo-1586985289403-a1d1c5b1d1f7?auto=format&fit=crop&w=800&q=80",
-        "price": 15,
-        "url": "https://www.ghirardelli.com/"
-      },
-      {
-        "key": "food5",
-        "name": "Cioppino",
-        "image": "https://images.unsplash.com/photo-1617196039984-7f80f0a5cbf4?auto=format&fit=crop&w=800&q=80",
-        "price": 28,
-        "url": "https://www.scomas.com/"
-      },
-      {
-        "key": "food6",
-        "name": "Dim Sum",
-        "image": "https://images.unsplash.com/photo-1604908812760-f4c5d1b0c7e8?auto=format&fit=crop&w=800&q=80",
-        "price": 18,
-        "url": "https://www.goodmongkok.com/"
-      },
-      {
-        "key": "food7",
-        "name": "It's-It Ice Cream Sandwich",
-        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
-        "price": 5,
-        "url": "https://www.itsiticecream.com/"
-      },
-      {
-        "key": "food8",
-        "name": "Seafood at Fisherman's Wharf",
-        "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80",
-        "price": 30,
-        "url": "https://www.fishermanswharf.org/"
-      },
-      {
-        "key": "food9",
-        "name": "Irish Coffee at Buena Vista Café",
-        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80",
-        "price": 12,
-        "url": "https://www.thebuenavista.com/"
-      },
-      {
-        "key": "food10",
-        "name": "Avocado Toast",
-        "image": "https://images.unsplash.com/photo-1590080875772-2a46a7e0978e?auto=format&fit=crop&w=800&q=80",
-        "price": 14,
-        "url": "https://www.millrestaurantsf.com/"
-      }
-    ]
+[
+  {
+    "key": "food1",
+    "name": "Sourdough Bread Bowl with Clam Chowder",
+    "image": "https://images.unsplash.com/photo-1604908176997-31f3e06f3a02?auto=format&fit=crop&w=800&q=80",
+    "price": 12,
+    "url": "https://www.boudinbakery.com/"
+  },
+  {
+    "key": "food2",
+    "name": "Mission Style Burrito",
+    "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80",
+    "price": 10,
+    "url": "https://www.lataqueriasf.com/"
+  },
+  {
+    "key": "food3",
+    "name": "Dungeness Crab",
+    "image": "https://images.unsplash.com/photo-1617196039984-09b7f13e7d40?auto=format&fit=crop&w=800&q=80",
+    "price": 25,
+    "url": "https://www.fishermanswharf.org/"
+  },
+  {
+    "key": "food4",
+    "name": "Ghirardelli Chocolate Sundae",
+    "image": "https://images.unsplash.com/photo-1586985289403-a1d1c5b1d1f7?auto=format&fit=crop&w=800&q=80",
+    "price": 15,
+    "url": "https://www.ghirardelli.com/"
+  },
+  {
+    "key": "food5",
+    "name": "Cioppino",
+    "image": "https://images.unsplash.com/photo-1617196039984-7f80f0a5cbf4?auto=format&fit=crop&w=800&q=80",
+    "price": 28,
+    "url": "https://www.scomas.com/"
+  },
+  {
+    "key": "food6",
+    "name": "Dim Sum",
+    "image": "https://images.unsplash.com/photo-1604908812760-f4c5d1b0c7e8?auto=format&fit=crop&w=800&q=80",
+    "price": 18,
+    "url": "https://www.goodmongkok.com/"
+  },
+  {
+    "key": "food7",
+    "name": "It's-It Ice Cream Sandwich",
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+    "price": 5,
+    "url": "https://www.itsiticecream.com/"
+  },
+  {
+    "key": "food8",
+    "name": "Seafood at Fisherman's Wharf",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80",
+    "price": 30,
+    "url": "https://www.fishermanswharf.org/"
+  },
+  {
+    "key": "food9",
+    "name": "Irish Coffee at Buena Vista Café",
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80",
+    "price": 12,
+    "url": "https://www.thebuenavista.com/"
+  },
+  {
+    "key": "food10",
+    "name": "Avocado Toast",
+    "image": "https://images.unsplash.com/photo-1590080875772-2a46a7e0978e?auto=format&fit=crop&w=800&q=80",
+    "price": 14,
+    "url": "https://www.millrestaurantsf.com/"
   }
-}
+]

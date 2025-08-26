@@ -1,116 +1,112 @@
-{
-  "result": {
-    "list": [
-      {
-        "id": 1,
-        "key": "hotel1",
-        "name": "Fairmont San Francisco",
-        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 200,
-          "maximum": 450
-        },
-        "url": "https://www.fairmont.com/san-francisco/"
-      },
-      {
-        "id": 2,
-        "key": "hotel2",
-        "name": "Hotel Nikko San Francisco",
-        "image": "https://images.unsplash.com/photo-1565182999561-d8637ae3e8b0?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 250,
-          "maximum": 380
-        },
-        "url": "https://www.hotelnikkosf.com/"
-      },
-      {
-        "id": 3,
-        "key": "hotel3",
-        "name": "Argonaut Hotel",
-        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 250,
-          "maximum": 350
-        },
-        "url": "https://www.argonauthotel.com/"
-      },
-      {
-        "id": 4,
-        "key": "hotel4",
-        "name": "The Ritz-Carlton, San Francisco",
-        "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 300,
-          "maximum": 600
-        },
-        "url": "https://www.ritzcarlton.com/en/hotels/california/san-francisco"
-      },
-      {
-        "id": 5,
-        "key": "hotel5",
-        "name": "Hotel Zephyr",
-        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 200,
-          "maximum": 320
-        },
-        "url": "https://www.hotelzephyrsf.com/"
-      },
-      {
-        "id": 6,
-        "key": "hotel6",
-        "name": "Cavallo Point Lodge",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 300,
-          "maximum": 400
-        },
-        "url": "https://www.cavallopoint.com/"
-      },
-      {
-        "id": 7,
-        "key": "hotel7",
-        "name": "Claremont Club & Spa, A Fairmont Hotel",
-        "image": "https://images.unsplash.com/photo-1501183638714-7198515b166b?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 250,
-          "maximum": 450
-        },
-        "url": "https://www.fairmont.com/claremont-san-francisco/"
-      },
-      {
-        "id": 8,
-        "key": "hotel8",
-        "name": "Marriott Marquis San Francisco",
-        "image": "https://images.unsplash.com/photo-1554306299-5f04c9f77a8e?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 250,
-          "maximum": 380
-        },
-        "url": "https://www.marriott.com/hotels/travel/sfomq-san-francisco-marriott-marquis/"
-      },
-      {
-        "id": 9,
-        "key": "hotel9",
-        "name": "Hyatt Regency San Francisco",
-        "image": "https://images.unsplash.com/photo-1519974719765-e6559eac2575?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 250,
-          "maximum": 360
-        },
-        "url": "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-san-francisco/sfors"
-      },
-      {
-        "id": 10,
-        "key": "hotel10",
-        "name": "The Westin St. Francis San Francisco on Union Square",
-        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-        "ranges": {
-          "minimum": 300,
-          "maximum": 400
-        },
-        "url": "https://www.marriott.com/hotels/travel/sfouw-the-westin-st-francis-san-francisco-on-union-square/"
-      }
-    ]
+[
+  {
+    "id": 1,
+    "key": "hotel1",
+    "name": "Fairmont San Francisco",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 200,
+      "maximum": 450
+    },
+    "url": "https://www.fairmont.com/san-francisco/"
+  },
+  {
+    "id": 2,
+    "key": "hotel2",
+    "name": "Hotel Nikko San Francisco",
+    "image": "https://images.unsplash.com/photo-1565182999561-d8637ae3e8b0?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 250,
+      "maximum": 380
+    },
+    "url": "https://www.hotelnikkosf.com/"
+  },
+  {
+    "id": 3,
+    "key": "hotel3",
+    "name": "Argonaut Hotel",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 250,
+      "maximum": 350
+    },
+    "url": "https://www.argonauthotel.com/"
+  },
+  {
+    "id": 4,
+    "key": "hotel4",
+    "name": "The Ritz-Carlton, San Francisco",
+    "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 300,
+      "maximum": 600
+    },
+    "url": "https://www.ritzcarlton.com/en/hotels/california/san-francisco"
+  },
+  {
+    "id": 5,
+    "key": "hotel5",
+    "name": "Hotel Zephyr",
+    "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 200,
+      "maximum": 320
+    },
+    "url": "https://www.hotelzephyrsf.com/"
+  },
+  {
+    "id": 6,
+    "key": "hotel6",
+    "name": "Cavallo Point Lodge",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 300,
+      "maximum": 400
+    },
+    "url": "https://www.cavallopoint.com/"
+  },
+  {
+    "id": 7,
+    "key": "hotel7",
+    "name": "Claremont Club & Spa, A Fairmont Hotel",
+    "image": "https://images.unsplash.com/photo-1501183638714-7198515b166b?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 250,
+      "maximum": 450
+    },
+    "url": "https://www.fairmont.com/claremont-san-francisco/"
+  },
+  {
+    "id": 8,
+    "key": "hotel8",
+    "name": "Marriott Marquis San Francisco",
+    "image": "https://images.unsplash.com/photo-1554306299-5f04c9f77a8e?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 250,
+      "maximum": 380
+    },
+    "url": "https://www.marriott.com/hotels/travel/sfomq-san-francisco-marriott-marquis/"
+  },
+  {
+    "id": 9,
+    "key": "hotel9",
+    "name": "Hyatt Regency San Francisco",
+    "image": "https://images.unsplash.com/photo-1519974719765-e6559eac2575?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 250,
+      "maximum": 360
+    },
+    "url": "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-san-francisco/sfors"
+  },
+  {
+    "id": 10,
+    "key": "hotel10",
+    "name": "The Westin St. Francis San Francisco on Union Square",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+    "ranges": {
+      "minimum": 300,
+      "maximum": 400
+    },
+    "url": "https://www.marriott.com/hotels/travel/sfouw-the-westin-st-francis-san-francisco-on-union-square/"
   }
-}
+]
