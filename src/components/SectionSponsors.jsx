@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 AOS.init();
 
 export default function SectionSponsors() {
-  const boxes = SponsorsData.result.list.map((sponsor) => sponsor);
+  const boxes = SponsorsData.map((sponsor) => sponsor);
   return (
     <section className="relative z-10 w-3/4 mx-auto py-36" id="sponsors">
       <h2 className="text-6xl font-bold text-center text-white mb-14">
