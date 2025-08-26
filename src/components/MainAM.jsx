@@ -7,11 +7,11 @@ import Food from "./Food";
 export default function MainAM() {
   const [foods, setFoods] = useState([]);
   useEffect(() => {
-    setFoods(dataFoods.result.list);
+    setFoods(dataFoods);
   }, []);
   const [hotels, setHotels] = useState([]);
   useEffect(() => {
-    setHotels(dataHotel.result.list);
+    setHotels(dataHotel);
   }, []);
 
   return (
